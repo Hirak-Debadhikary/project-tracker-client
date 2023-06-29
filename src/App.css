@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+.background {
+  height: 65vh;
+  /* display: flex; */
+  background-image: url("./Components/Assets/login-background.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+}
+
+.logo {
+  margin: auto;
+  display: flex;
+  background-image: url("./Components/Assets/Logo.svg");
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid red; */
+  width: 7%;
+  height: 12vh;
+  margin-top: 1rem;
+  /* margin-left: 46%; */
+  /* padding: 4rem; */
+  margin-bottom: 2rem;
+}
+.project-bg {
+  height: 20vh;
+  /* display: flex; */
+  background-image: url("./Components/Assets/Project-Header-bg.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 0.5rem;
+  width: 95%;
+  margin-left: 5%;
+}
+.project-Logo {
+  margin: auto;
+  background-image: url("./Components/Assets/project-Logo.svg");
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid red; */
+  width: 5%;
+  height: 8.5vh;
+  margin-top: -4rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    width: 38%;
+    height: 16vh;
+    margin-top: 2rem;
+  }
+
+  .project-Logo {
+    width: 10%;
+  }
+  .background {
+    height: 40vh;
+    background-image: url("./Components/Assets/login-background.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    border-radius: 0rem 0rem 0rem 5rem;
+  }
+  .project-bg {
+    height: 10vh;
+    background-image: url("./Components/Assets/Project-Header-bg.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 0rem 0rem 0rem 3rem;
+    /* border: 1px solid red; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+  }
+  
+}
