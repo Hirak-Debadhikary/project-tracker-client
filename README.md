@@ -1,5 +1,3 @@
-# Techprimelab-Assignment       
-       
 # Full-Stack-Application - 
 Welcome to the project repository for Full-Stack-Application. This project aims to provide a comprehensive web application for managing projects and their associated data. The application offers various features and functionalities, outlined below:
 
