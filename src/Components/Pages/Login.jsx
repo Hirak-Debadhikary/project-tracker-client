@@ -52,7 +52,7 @@ const Login = () => {
       }
       setIsLoading(true); // Set loading state to true
       const response = await axios.post(
-        "https://sore-puce-magpie-sari.cyclic.app/api/login",
+        "https://curious-blue-pig.cyclic.app/api/login",
         {
           email,
           password,

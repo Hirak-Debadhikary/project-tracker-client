@@ -68,7 +68,7 @@ const CreateProjectForm = () => {
   const submitFormData = async (formData) => {
     try {
       const response = await axios.post(
-        "https://sore-puce-magpie-sari.cyclic.app/api/submit",
+        "https://curious-blue-pig.cyclic.app/api/submit",
         formData
       );
       console.log(response.data.message);

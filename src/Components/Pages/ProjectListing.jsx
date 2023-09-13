@@ -32,7 +32,7 @@ const ProjectListing = () => {
     const fetchProjects = async () => {
       try {
         const response = await axios.get(
-          "https://sore-puce-magpie-sari.cyclic.app/api/getAll"
+          "https://curious-blue-pig.cyclic.app/api/getAll"
         );
         setProjects(response.data); // Set the projects state with the fetched data
         setFilteredProjects(response.data); // Initialize filtered projects with all projects
@@ -48,7 +48,7 @@ const ProjectListing = () => {
     try {
       // Update the status of the project in the API
       await axios.put(
-        `https://sore-puce-magpie-sari.cyclic.app/api/projects/${projectId}/status`,
+        `https://curious-blue-pig.cyclic.app/api/projects/${projectId}/status`,
         {
           status: status,
         }
@@ -61,6 +61,9 @@ const ProjectListing = () => {
       );
     } catch (error) {
       console.error("Error occurred while updating project status:", error);
+      if (error.response) {
+        console.error("Response data:", error.response.data);
+      }
     }
   };
 

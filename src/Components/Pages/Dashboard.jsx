@@ -25,7 +25,7 @@ const Dashboard = () => {
     const fetchAllCount = async () => {
       try {
         const response = await axios.get(
-          "https://sore-puce-magpie-sari.cyclic.app/api/status/count"
+          "https://curious-blue-pig.cyclic.app/api/status/count"
         );
         // Update the state with the fetched count
         setAllCount({ allCount, ...response.data });

@@ -37,7 +37,7 @@ const BarChart = () => {
     try {
       // Fetch data from API endpoint
       const response = await axios.get(
-        "https://sore-puce-magpie-sari.cyclic.app/api/status/chart"
+        "https://curious-blue-pig.cyclic.app/api/status/chart"
       );
 
       // Destructure response data
